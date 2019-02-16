@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDDF744621E832DF00C37EAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDF744521E832DF00C37EAA /* AppDelegate.m */; };
+		DDDF744921E832E000C37EAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDF744821E832E000C37EAA /* ViewController.m */; };
+		DDDF744B21E832E000C37EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDF744A21E832E000C37EAA /* Assets.xcassets */; };
+		DDDF744E21E832E000C37EAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDF744C21E832E000C37EAA /* Main.storyboard */; };
+		DDDF745121E832E100C37EAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDF745021E832E100C37EAA /* main.m */; };
+		DDDF745C21E832E100C37EAA /* OpenGLTry3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDF745B21E832E100C37EAA /* OpenGLTry3Tests.m */; };
+		DDDF746721E832E100C37EAA /* OpenGLTry3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDF746621E832E100C37EAA /* OpenGLTry3UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDDF745821E832E100C37EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDDF743921E832DF00C37EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDDF744021E832DF00C37EAA;
+			remoteInfo = OpenGLTry3;
+		};
+		DDDF746321E832E100C37EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDDF743921E832DF00C37EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDDF744021E832DF00C37EAA;
+			remoteInfo = OpenGLTry3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDDF744121E832DF00C37EAA /* OpenGLTry3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLTry3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDF744421E832DF00C37EAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDDF744521E832DF00C37EAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDDF744721E832E000C37EAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDDF744821E832E000C37EAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDDF744A21E832E000C37EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDDF744D21E832E000C37EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDDF744F21E832E000C37EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDF745021E832E100C37EAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDDF745221E832E100C37EAA /* OpenGLTry3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenGLTry3.entitlements; sourceTree = "<group>"; };
+		DDDF745721E832E100C37EAA /* OpenGLTry3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLTry3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDF745B21E832E100C37EAA /* OpenGLTry3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLTry3Tests.m; sourceTree = "<group>"; };
+		DDDF745D21E832E100C37EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDF746221E832E100C37EAA /* OpenGLTry3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLTry3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDF746621E832E100C37EAA /* OpenGLTry3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLTry3UITests.m; sourceTree = "<group>"; };
+		DDDF746821E832E100C37EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDDF743E21E832DF00C37EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDF745421E832E100C37EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDF745F21E832E100C37EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDDF743821E832DF00C37EAA = {
+			isa = PBXGroup;
+			children = (
+				DDDF744321E832DF00C37EAA /* OpenGLTry3 */,
+				DDDF745A21E832E100C37EAA /* OpenGLTry3Tests */,
+				DDDF746521E832E100C37EAA /* OpenGLTry3UITests */,
+				DDDF744221E832DF00C37EAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDDF744221E832DF00C37EAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDDF744121E832DF00C37EAA /* OpenGLTry3.app */,
+				DDDF745721E832E100C37EAA /* OpenGLTry3Tests.xctest */,
+				DDDF746221E832E100C37EAA /* OpenGLTry3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDDF744321E832DF00C37EAA /* OpenGLTry3 */ = {
+			isa = PBXGroup;
+			children = (
+				DDDF744421E832DF00C37EAA /* AppDelegate.h */,
+				DDDF744521E832DF00C37EAA /* AppDelegate.m */,
+				DDDF744721E832E000C37EAA /* ViewController.h */,
+				DDDF744821E832E000C37EAA /* ViewController.m */,
+				DDDF744A21E832E000C37EAA /* Assets.xcassets */,
+				DDDF744C21E832E000C37EAA /* Main.storyboard */,
+				DDDF744F21E832E000C37EAA /* Info.plist */,
+				DDDF745021E832E100C37EAA /* main.m */,
+				DDDF745221E832E100C37EAA /* OpenGLTry3.entitlements */,
+			);
+			path = OpenGLTry3;
+			sourceTree = "<group>";
+		};
+		DDDF745A21E832E100C37EAA /* OpenGLTry3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DDDF745B21E832E100C37EAA /* OpenGLTry3Tests.m */,
+				DDDF745D21E832E100C37EAA /* Info.plist */,
+			);
+			path = OpenGLTry3Tests;
+			sourceTree = "<group>";
+		};
+		DDDF746521E832E100C37EAA /* OpenGLTry3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDDF746621E832E100C37EAA /* OpenGLTry3UITests.m */,
+				DDDF746821E832E100C37EAA /* Info.plist */,
+			);
+			path = OpenGLTry3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDDF744021E832DF00C37EAA /* OpenGLTry3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDF746B21E832E100C37EAA /* Build configuration list for PBXNativeTarget "OpenGLTry3" */;
+			buildPhases = (
+				DDDF743D21E832DF00C37EAA /* Sources */,
+				DDDF743E21E832DF00C37EAA /* Frameworks */,
+				DDDF743F21E832DF00C37EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLTry3;
+			productName = OpenGLTry3;
+			productReference = DDDF744121E832DF00C37EAA /* OpenGLTry3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDDF745621E832E100C37EAA /* OpenGLTry3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDF746E21E832E100C37EAA /* Build configuration list for PBXNativeTarget "OpenGLTry3Tests" */;
+			buildPhases = (
+				DDDF745321E832E100C37EAA /* Sources */,
+				DDDF745421E832E100C37EAA /* Frameworks */,
+				DDDF745521E832E100C37EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDDF745921E832E100C37EAA /* PBXTargetDependency */,
+			);
+			name = OpenGLTry3Tests;
+			productName = OpenGLTry3Tests;
+			productReference = DDDF745721E832E100C37EAA /* OpenGLTry3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDDF746121E832E100C37EAA /* OpenGLTry3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDF747121E832E100C37EAA /* Build configuration list for PBXNativeTarget "OpenGLTry3UITests" */;
+			buildPhases = (
+				DDDF745E21E832E100C37EAA /* Sources */,
+				DDDF745F21E832E100C37EAA /* Frameworks */,
+				DDDF746021E832E100C37EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDDF746421E832E100C37EAA /* PBXTargetDependency */,
+			);
+			name = OpenGLTry3UITests;
+			productName = OpenGLTry3UITests;
+			productReference = DDDF746221E832E100C37EAA /* OpenGLTry3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDDF743921E832DF00C37EAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Neo Woodley";
+				TargetAttributes = {
+					DDDF744021E832DF00C37EAA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					DDDF745621E832E100C37EAA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DDDF744021E832DF00C37EAA;
+					};
+					DDDF746121E832E100C37EAA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DDDF744021E832DF00C37EAA;
+					};
+				};
+			};
+			buildConfigurationList = DDDF743C21E832DF00C37EAA /* Build configuration list for PBXProject "OpenGLTry3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDDF743821E832DF00C37EAA;
+			productRefGroup = DDDF744221E832DF00C37EAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDDF744021E832DF00C37EAA /* OpenGLTry3 */,
+				DDDF745621E832E100C37EAA /* OpenGLTry3Tests */,
+				DDDF746121E832E100C37EAA /* OpenGLTry3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDDF743F21E832DF00C37EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDF744B21E832E000C37EAA /* Assets.xcassets in Resources */,
+				DDDF744E21E832E000C37EAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDF745521E832E100C37EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDF746021E832E100C37EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDDF743D21E832DF00C37EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDF744921E832E000C37EAA /* ViewController.m in Sources */,
+				DDDF745121E832E100C37EAA /* main.m in Sources */,
+				DDDF744621E832DF00C37EAA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDF745321E832E100C37EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDF745C21E832E100C37EAA /* OpenGLTry3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDF745E21E832E100C37EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDF746721E832E100C37EAA /* OpenGLTry3UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDDF745921E832E100C37EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDDF744021E832DF00C37EAA /* OpenGLTry3 */;
+			targetProxy = DDDF745821E832E100C37EAA /* PBXContainerItemProxy */;
+		};
+		DDDF746421E832E100C37EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDDF744021E832DF00C37EAA /* OpenGLTry3 */;
+			targetProxy = DDDF746321E832E100C37EAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDDF744C21E832E000C37EAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDDF744D21E832E000C37EAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDDF746921E832E100C37EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DDDF746A21E832E100C37EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DDDF746C21E832E100C37EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenGLTry3/OpenGLTry3.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenGLTry3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NW.OpenGLTry3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDDF746D21E832E100C37EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenGLTry3/OpenGLTry3.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenGLTry3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NW.OpenGLTry3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDDF746F21E832E100C37EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenGLTry3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NW.OpenGLTry3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLTry3.app/Contents/MacOS/OpenGLTry3";
+			};
+			name = Debug;
+		};
+		DDDF747021E832E100C37EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenGLTry3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NW.OpenGLTry3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGLTry3.app/Contents/MacOS/OpenGLTry3";
+			};
+			name = Release;
+		};
+		DDDF747221E832E100C37EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenGLTry3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NW.OpenGLTry3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenGLTry3;
+			};
+			name = Debug;
+		};
+		DDDF747321E832E100C37EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenGLTry3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NW.OpenGLTry3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenGLTry3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDDF743C21E832DF00C37EAA /* Build configuration list for PBXProject "OpenGLTry3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDF746921E832E100C37EAA /* Debug */,
+				DDDF746A21E832E100C37EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDF746B21E832E100C37EAA /* Build configuration list for PBXNativeTarget "OpenGLTry3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDF746C21E832E100C37EAA /* Debug */,
+				DDDF746D21E832E100C37EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDF746E21E832E100C37EAA /* Build configuration list for PBXNativeTarget "OpenGLTry3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDF746F21E832E100C37EAA /* Debug */,
+				DDDF747021E832E100C37EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDF747121E832E100C37EAA /* Build configuration list for PBXNativeTarget "OpenGLTry3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDF747221E832E100C37EAA /* Debug */,
+				DDDF747321E832E100C37EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDDF743921E832DF00C37EAA /* Project object */;
+}
