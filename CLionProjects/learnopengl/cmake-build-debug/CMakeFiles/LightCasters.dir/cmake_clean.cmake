@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LightCasters.dir/LightCasters/SpotLight.cpp.o"
+  "CMakeFiles/LightCasters.dir/LightCasters/SmoothSpotlight.cpp.o"
   "LightCasters.pdb"
   "LightCasters"
 )

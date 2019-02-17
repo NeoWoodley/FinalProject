@@ -65,6 +65,82 @@ CMAKE_SOURCE_DIR = /Users/neowoodley/Projects/CLionProjects/learnopengl
 CMAKE_BINARY_DIR = /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/Mesh.dir
+
+# All Build rule for target.
+CMakeFiles/Mesh.dir/all: external/CMakeFiles/GLEW_1130.dir/all
+CMakeFiles/Mesh.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f CMakeFiles/Mesh.dir/build.make CMakeFiles/Mesh.dir/depend
+	$(MAKE) -f CMakeFiles/Mesh.dir/build.make CMakeFiles/Mesh.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num= "Built target Mesh"
+.PHONY : CMakeFiles/Mesh.dir/all
+
+# Include target in all.
+all: CMakeFiles/Mesh.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Mesh.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Mesh.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Mesh.dir/rule
+
+# Convenience name for target.
+Mesh: CMakeFiles/Mesh.dir/rule
+
+.PHONY : Mesh
+
+# clean rule for target.
+CMakeFiles/Mesh.dir/clean:
+	$(MAKE) -f CMakeFiles/Mesh.dir/build.make CMakeFiles/Mesh.dir/clean
+.PHONY : CMakeFiles/Mesh.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Mesh.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/MultipleLights.dir
+
+# All Build rule for target.
+CMakeFiles/MultipleLights.dir/all: external/CMakeFiles/GLEW_1130.dir/all
+CMakeFiles/MultipleLights.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f CMakeFiles/MultipleLights.dir/build.make CMakeFiles/MultipleLights.dir/depend
+	$(MAKE) -f CMakeFiles/MultipleLights.dir/build.make CMakeFiles/MultipleLights.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=43 "Built target MultipleLights"
+.PHONY : CMakeFiles/MultipleLights.dir/all
+
+# Include target in all.
+all: CMakeFiles/MultipleLights.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/MultipleLights.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MultipleLights.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/MultipleLights.dir/rule
+
+# Convenience name for target.
+MultipleLights: CMakeFiles/MultipleLights.dir/rule
+
+.PHONY : MultipleLights
+
+# clean rule for target.
+CMakeFiles/MultipleLights.dir/clean:
+	$(MAKE) -f CMakeFiles/MultipleLights.dir/build.make CMakeFiles/MultipleLights.dir/clean
+.PHONY : CMakeFiles/MultipleLights.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/MultipleLights.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/LightCasters.dir
 
 # All Build rule for target.
@@ -72,7 +148,7 @@ CMakeFiles/LightCasters.dir/all: external/CMakeFiles/GLEW_1130.dir/all
 CMakeFiles/LightCasters.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/LightCasters.dir/build.make CMakeFiles/LightCasters.dir/depend
 	$(MAKE) -f CMakeFiles/LightCasters.dir/build.make CMakeFiles/LightCasters.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num= "Built target LightCasters"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=39 "Built target LightCasters"
 .PHONY : CMakeFiles/LightCasters.dir/all
 
 # Include target in all.
@@ -82,7 +158,7 @@ all: CMakeFiles/LightCasters.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LightCasters.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LightCasters.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/LightCasters.dir/rule
@@ -110,7 +186,7 @@ CMakeFiles/LightingMaps.dir/all: external/CMakeFiles/GLEW_1130.dir/all
 CMakeFiles/LightingMaps.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/LightingMaps.dir/build.make CMakeFiles/LightingMaps.dir/depend
 	$(MAKE) -f CMakeFiles/LightingMaps.dir/build.make CMakeFiles/LightingMaps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=40 "Built target LightingMaps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num= "Built target LightingMaps"
 .PHONY : CMakeFiles/LightingMaps.dir/all
 
 # Include target in all.
@@ -120,7 +196,7 @@ all: CMakeFiles/LightingMaps.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LightingMaps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LightingMaps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/LightingMaps.dir/rule
@@ -148,7 +224,7 @@ CMakeFiles/Materials.dir/all: external/CMakeFiles/GLEW_1130.dir/all
 CMakeFiles/Materials.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/Materials.dir/build.make CMakeFiles/Materials.dir/depend
 	$(MAKE) -f CMakeFiles/Materials.dir/build.make CMakeFiles/Materials.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num= "Built target Materials"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=42 "Built target Materials"
 .PHONY : CMakeFiles/Materials.dir/all
 
 # Include target in all.
@@ -158,7 +234,7 @@ all: CMakeFiles/Materials.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Materials.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Materials.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Materials.dir/rule
@@ -262,7 +338,7 @@ CMakeFiles/Textures.dir/all: external/CMakeFiles/GLEW_1130.dir/all
 CMakeFiles/Textures.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/Textures.dir/build.make CMakeFiles/Textures.dir/depend
 	$(MAKE) -f CMakeFiles/Textures.dir/build.make CMakeFiles/Textures.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num= "Built target Textures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=44 "Built target Textures"
 .PHONY : CMakeFiles/Textures.dir/all
 
 # Include target in all.
@@ -272,7 +348,7 @@ all: CMakeFiles/Textures.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Textures.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Textures.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Textures.dir/rule
@@ -300,7 +376,7 @@ CMakeFiles/Transformations.dir/all: external/CMakeFiles/GLEW_1130.dir/all
 CMakeFiles/Transformations.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/Transformations.dir/build.make CMakeFiles/Transformations.dir/depend
 	$(MAKE) -f CMakeFiles/Transformations.dir/build.make CMakeFiles/Transformations.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=44 "Built target Transformations"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=45 "Built target Transformations"
 .PHONY : CMakeFiles/Transformations.dir/all
 
 # Include target in all.
@@ -452,7 +528,7 @@ CMakeFiles/HelloWindow.dir/all: external/CMakeFiles/GLEW_1130.dir/all
 CMakeFiles/HelloWindow.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/HelloWindow.dir/build.make CMakeFiles/HelloWindow.dir/depend
 	$(MAKE) -f CMakeFiles/HelloWindow.dir/build.make CMakeFiles/HelloWindow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=39 "Built target HelloWindow"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num= "Built target HelloWindow"
 .PHONY : CMakeFiles/HelloWindow.dir/all
 
 # Include target in all.
@@ -462,7 +538,7 @@ all: CMakeFiles/HelloWindow.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HelloWindow.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HelloWindow.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/HelloWindow.dir/rule
@@ -490,7 +566,7 @@ CMakeFiles/Camera.dir/all: external/CMakeFiles/GLEW_1130.dir/all
 CMakeFiles/Camera.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/Camera.dir/build.make CMakeFiles/Camera.dir/depend
 	$(MAKE) -f CMakeFiles/Camera.dir/build.make CMakeFiles/Camera.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num= "Built target Camera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=35 "Built target Camera"
 .PHONY : CMakeFiles/Camera.dir/all
 
 # Include target in all.
@@ -500,7 +576,7 @@ all: CMakeFiles/Camera.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Camera.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Camera.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Camera.dir/rule
@@ -566,7 +642,7 @@ CMakeFiles/Shaders.dir/all: external/CMakeFiles/GLEW_1130.dir/all
 CMakeFiles/Shaders.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/Shaders.dir/build.make CMakeFiles/Shaders.dir/depend
 	$(MAKE) -f CMakeFiles/Shaders.dir/build.make CMakeFiles/Shaders.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=43 "Built target Shaders"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num= "Built target Shaders"
 .PHONY : CMakeFiles/Shaders.dir/all
 
 # Include target in all.
@@ -576,7 +652,7 @@ all: CMakeFiles/Shaders.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Shaders.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Shaders.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Shaders.dir/rule
@@ -1314,7 +1390,7 @@ clean: external/glfw-3.1.2/tests/CMakeFiles/tearing.dir/clean
 external/glfw-3.1.2/tests/CMakeFiles/empty.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/empty.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/empty.dir/depend
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/empty.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/empty.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=80 "Built target empty"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num= "Built target empty"
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/empty.dir/all
 
 # Include target in all.
@@ -1324,7 +1400,7 @@ all: external/glfw-3.1.2/tests/CMakeFiles/empty.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw-3.1.2/tests/CMakeFiles/empty.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 external/glfw-3.1.2/tests/CMakeFiles/empty.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/empty.dir/rule
@@ -1388,7 +1464,7 @@ clean: external/glfw-3.1.2/tests/CMakeFiles/glfwinfo.dir/clean
 external/glfw-3.1.2/tests/CMakeFiles/cursor.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/cursor.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/cursor.dir/depend
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/cursor.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/cursor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num= "Built target cursor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=80 "Built target cursor"
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/cursor.dir/all
 
 # Include target in all.
@@ -1398,7 +1474,7 @@ all: external/glfw-3.1.2/tests/CMakeFiles/cursor.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw-3.1.2/tests/CMakeFiles/cursor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 external/glfw-3.1.2/tests/CMakeFiles/cursor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/cursor.dir/rule
@@ -1425,7 +1501,7 @@ clean: external/glfw-3.1.2/tests/CMakeFiles/cursor.dir/clean
 external/glfw-3.1.2/tests/CMakeFiles/monitors.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/monitors.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/monitors.dir/depend
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/monitors.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/monitors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=89 "Built target monitors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num= "Built target monitors"
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/monitors.dir/all
 
 # Include target in all.
@@ -1435,7 +1511,7 @@ all: external/glfw-3.1.2/tests/CMakeFiles/monitors.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw-3.1.2/tests/CMakeFiles/monitors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 external/glfw-3.1.2/tests/CMakeFiles/monitors.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/monitors.dir/rule
@@ -1462,7 +1538,7 @@ clean: external/glfw-3.1.2/tests/CMakeFiles/monitors.dir/clean
 external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/depend
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num= "Built target reopen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=92 "Built target reopen"
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/all
 
 # Include target in all.
@@ -1472,7 +1548,7 @@ all: external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/rule
@@ -1499,7 +1575,7 @@ clean: external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/clean
 external/glfw-3.1.2/tests/CMakeFiles/joysticks.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/joysticks.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/joysticks.dir/depend
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/joysticks.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/joysticks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num= "Built target joysticks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=89 "Built target joysticks"
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/joysticks.dir/all
 
 # Include target in all.
@@ -1509,7 +1585,7 @@ all: external/glfw-3.1.2/tests/CMakeFiles/joysticks.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw-3.1.2/tests/CMakeFiles/joysticks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 external/glfw-3.1.2/tests/CMakeFiles/joysticks.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/joysticks.dir/rule
@@ -1647,7 +1723,7 @@ clean: external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/clean
 external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/depend
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=92 "Built target sharing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num= "Built target sharing"
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/all
 
 # Include target in all.
@@ -1657,7 +1733,7 @@ all: external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 0
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/rule
@@ -1831,7 +1907,7 @@ external/assimp-3.0.1270/code/preinstall:
 external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/all: external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/all
 	$(MAKE) -f external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/build.make external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/depend
 	$(MAKE) -f external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/build.make external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78 "Built target assimp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78 "Built target assimp"
 .PHONY : external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/all
 
 # Include target in all.
@@ -1841,7 +1917,7 @@ all: external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/all
 
 # Build rule for subdir invocation for target.
 external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 36
 	$(MAKE) -f CMakeFiles/Makefile2 external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 0
 .PHONY : external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/rule
@@ -1886,7 +1962,7 @@ external/bullet-2.81-rev2613/src/BulletSoftBody/preinstall:
 external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/all:
 	$(MAKE) -f external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/depend
 	$(MAKE) -f external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=33,34,35 "Built target BulletSoftBody"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target BulletSoftBody"
 .PHONY : external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/all
 
 # Include target in all.
@@ -1896,7 +1972,7 @@ all: external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.d
 
 # Build rule for subdir invocation for target.
 external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles 0
 .PHONY : external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/rule
@@ -2051,7 +2127,7 @@ external/bullet-2.81-rev2613/src/LinearMath/preinstall:
 external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/all:
 	$(MAKE) -f external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/build.make external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/depend
 	$(MAKE) -f external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/build.make external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target LinearMath"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target LinearMath"
 .PHONY : external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/all
 
 # Include target in all.

@@ -244,7 +244,8 @@ create_target_launcher(LightingMaps WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DI
 add_executable(LightCasters
 #		LightCasters/DirectionalLight.cpp
 #		LightCasters/PointLight.cpp
-		LightCasters/SpotLight.cpp)
+#		LightCasters/SpotLight.cpp
+		LightCasters/SmoothSpotlight.cpp)
 target_link_libraries(LightCasters
 		${ALL_LIBS}
 		)
@@ -252,6 +253,28 @@ target_link_libraries(LightCasters
 set_target_properties(LightCasters PROPERTIES XCODE_ATTRIBUTE_CONFIGURATION_BUILD_DIR
 		"${CMAKE_CURRENT_SOURCE_DIR}/LightCasters/")
 create_target_launcher(LightCasters WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/LightCasters/")
+
+# MultipleLights
+add_executable(MultipleLights
+		MultipleLights/MultipleLights.cpp)
+target_link_libraries(MultipleLights
+		${ALL_LIBS}
+		)
+# Xcode and Visual working directories
+set_target_properties(MultipleLights PROPERTIES XCODE_ATTRIBUTE_CONFIGURATION_BUILD_DIR
+		"${CMAKE_CURRENT_SOURCE_DIR}/MultipleLights/")
+create_target_launcher(MultipleLights WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/MultipleLights/")
+
+# Mesh
+add_executable(Mesh
+		Mesh/Mesh.cpp)
+target_link_libraries(Mesh
+		${ALL_LIBS}
+		)
+# Xcode and Visual working directories
+set_target_properties(Mesh PROPERTIES XCODE_ATTRIBUTE_CONFIGURATION_BUILD_DIR
+		"${CMAKE_CURRENT_SOURCE_DIR}/Mesh/")
+create_target_launcher(Mesh WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/Mesh/")
 
 SOURCE_GROUP(common REGULAR_EXPRESSION ".*/common/.*")
 SOURCE_GROUP(shaders REGULAR_EXPRESSION ".*/.*shader$")
@@ -341,6 +364,18 @@ if (NOT ${CMAKE_GENERATOR} MATCHES "Xcode")
 			COMMAND ${CMAKE_COMMAND} -E copy
 			"${CMAKE_CURRENT_BINARY_DIR}/${CMAKE_CFG_INTDIR}/LightCasters${CMAKE_EXECUTABLE_SUFFIX}"
 			"${CMAKE_CURRENT_SOURCE_DIR}/LightCasters/"
+	)
+	add_custom_command(
+			TARGET MultipleLights POST_BUILD
+			COMMAND ${CMAKE_COMMAND} -E copy
+			"${CMAKE_CURRENT_BINARY_DIR}/${CMAKE_CFG_INTDIR}/MultipleLights${CMAKE_EXECUTABLE_SUFFIX}"
+			"${CMAKE_CURRENT_SOURCE_DIR}/MultipleLights/"
+	)
+	add_custom_command(
+			TARGET Mesh POST_BUILD
+			COMMAND ${CMAKE_COMMAND} -E copy
+			"${CMAKE_CURRENT_BINARY_DIR}/${CMAKE_CFG_INTDIR}/Mesh${CMAKE_EXECUTABLE_SUFFIX}"
+			"${CMAKE_CURRENT_SOURCE_DIR}/Mesh/"
 	)
 elseif (${CMAKE_GENERATOR} MATCHES "Xcode")
 

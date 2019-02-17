@@ -57,27 +57,27 @@ include CMakeFiles/LightCasters.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LightCasters.dir/flags.make
 
-CMakeFiles/LightCasters.dir/LightCasters/SpotLight.cpp.o: CMakeFiles/LightCasters.dir/flags.make
-CMakeFiles/LightCasters.dir/LightCasters/SpotLight.cpp.o: ../LightCasters/SpotLight.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LightCasters.dir/LightCasters/SpotLight.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LightCasters.dir/LightCasters/SpotLight.cpp.o -c /Users/neowoodley/Projects/CLionProjects/learnopengl/LightCasters/SpotLight.cpp
+CMakeFiles/LightCasters.dir/LightCasters/SmoothSpotlight.cpp.o: CMakeFiles/LightCasters.dir/flags.make
+CMakeFiles/LightCasters.dir/LightCasters/SmoothSpotlight.cpp.o: ../LightCasters/SmoothSpotlight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LightCasters.dir/LightCasters/SmoothSpotlight.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LightCasters.dir/LightCasters/SmoothSpotlight.cpp.o -c /Users/neowoodley/Projects/CLionProjects/learnopengl/LightCasters/SmoothSpotlight.cpp
 
-CMakeFiles/LightCasters.dir/LightCasters/SpotLight.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LightCasters.dir/LightCasters/SpotLight.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neowoodley/Projects/CLionProjects/learnopengl/LightCasters/SpotLight.cpp > CMakeFiles/LightCasters.dir/LightCasters/SpotLight.cpp.i
+CMakeFiles/LightCasters.dir/LightCasters/SmoothSpotlight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LightCasters.dir/LightCasters/SmoothSpotlight.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neowoodley/Projects/CLionProjects/learnopengl/LightCasters/SmoothSpotlight.cpp > CMakeFiles/LightCasters.dir/LightCasters/SmoothSpotlight.cpp.i
 
-CMakeFiles/LightCasters.dir/LightCasters/SpotLight.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LightCasters.dir/LightCasters/SpotLight.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neowoodley/Projects/CLionProjects/learnopengl/LightCasters/SpotLight.cpp -o CMakeFiles/LightCasters.dir/LightCasters/SpotLight.cpp.s
+CMakeFiles/LightCasters.dir/LightCasters/SmoothSpotlight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LightCasters.dir/LightCasters/SmoothSpotlight.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neowoodley/Projects/CLionProjects/learnopengl/LightCasters/SmoothSpotlight.cpp -o CMakeFiles/LightCasters.dir/LightCasters/SmoothSpotlight.cpp.s
 
 # Object files for target LightCasters
 LightCasters_OBJECTS = \
-"CMakeFiles/LightCasters.dir/LightCasters/SpotLight.cpp.o"
+"CMakeFiles/LightCasters.dir/LightCasters/SmoothSpotlight.cpp.o"
 
 # External object files for target LightCasters
 LightCasters_EXTERNAL_OBJECTS =
 
-LightCasters: CMakeFiles/LightCasters.dir/LightCasters/SpotLight.cpp.o
+LightCasters: CMakeFiles/LightCasters.dir/LightCasters/SmoothSpotlight.cpp.o
 LightCasters: CMakeFiles/LightCasters.dir/build.make
 LightCasters: external/glfw-3.1.2/src/libglfw3.a
 LightCasters: external/libGLEW_1130.a

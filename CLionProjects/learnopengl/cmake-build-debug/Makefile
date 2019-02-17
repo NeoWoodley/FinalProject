@@ -157,6 +157,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Mesh
+
+# Build rule for target.
+Mesh: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Mesh
+.PHONY : Mesh
+
+# fast build rule for target.
+Mesh/fast:
+	$(MAKE) -f CMakeFiles/Mesh.dir/build.make CMakeFiles/Mesh.dir/build
+.PHONY : Mesh/fast
+
+#=============================================================================
+# Target rules for targets named MultipleLights
+
+# Build rule for target.
+MultipleLights: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MultipleLights
+.PHONY : MultipleLights
+
+# fast build rule for target.
+MultipleLights/fast:
+	$(MAKE) -f CMakeFiles/MultipleLights.dir/build.make CMakeFiles/MultipleLights.dir/build
+.PHONY : MultipleLights/fast
+
+#=============================================================================
 # Target rules for targets named LightCasters
 
 # Build rule for target.
@@ -983,32 +1009,32 @@ HelloWindow/HelloWindow.cpp.s:
 	$(MAKE) -f CMakeFiles/HelloWindow.dir/build.make CMakeFiles/HelloWindow.dir/HelloWindow/HelloWindow.cpp.s
 .PHONY : HelloWindow/HelloWindow.cpp.s
 
-LightCasters/SpotLight.o: LightCasters/SpotLight.cpp.o
+LightCasters/SmoothSpotlight.o: LightCasters/SmoothSpotlight.cpp.o
 
-.PHONY : LightCasters/SpotLight.o
+.PHONY : LightCasters/SmoothSpotlight.o
 
 # target to build an object file
-LightCasters/SpotLight.cpp.o:
-	$(MAKE) -f CMakeFiles/LightCasters.dir/build.make CMakeFiles/LightCasters.dir/LightCasters/SpotLight.cpp.o
-.PHONY : LightCasters/SpotLight.cpp.o
+LightCasters/SmoothSpotlight.cpp.o:
+	$(MAKE) -f CMakeFiles/LightCasters.dir/build.make CMakeFiles/LightCasters.dir/LightCasters/SmoothSpotlight.cpp.o
+.PHONY : LightCasters/SmoothSpotlight.cpp.o
 
-LightCasters/SpotLight.i: LightCasters/SpotLight.cpp.i
+LightCasters/SmoothSpotlight.i: LightCasters/SmoothSpotlight.cpp.i
 
-.PHONY : LightCasters/SpotLight.i
+.PHONY : LightCasters/SmoothSpotlight.i
 
 # target to preprocess a source file
-LightCasters/SpotLight.cpp.i:
-	$(MAKE) -f CMakeFiles/LightCasters.dir/build.make CMakeFiles/LightCasters.dir/LightCasters/SpotLight.cpp.i
-.PHONY : LightCasters/SpotLight.cpp.i
+LightCasters/SmoothSpotlight.cpp.i:
+	$(MAKE) -f CMakeFiles/LightCasters.dir/build.make CMakeFiles/LightCasters.dir/LightCasters/SmoothSpotlight.cpp.i
+.PHONY : LightCasters/SmoothSpotlight.cpp.i
 
-LightCasters/SpotLight.s: LightCasters/SpotLight.cpp.s
+LightCasters/SmoothSpotlight.s: LightCasters/SmoothSpotlight.cpp.s
 
-.PHONY : LightCasters/SpotLight.s
+.PHONY : LightCasters/SmoothSpotlight.s
 
 # target to generate assembly for a file
-LightCasters/SpotLight.cpp.s:
-	$(MAKE) -f CMakeFiles/LightCasters.dir/build.make CMakeFiles/LightCasters.dir/LightCasters/SpotLight.cpp.s
-.PHONY : LightCasters/SpotLight.cpp.s
+LightCasters/SmoothSpotlight.cpp.s:
+	$(MAKE) -f CMakeFiles/LightCasters.dir/build.make CMakeFiles/LightCasters.dir/LightCasters/SmoothSpotlight.cpp.s
+.PHONY : LightCasters/SmoothSpotlight.cpp.s
 
 LightingMaps/LightingMaps.o: LightingMaps/LightingMaps.cpp.o
 
@@ -1063,6 +1089,60 @@ Materials/Materials.s: Materials/Materials.cpp.s
 Materials/Materials.cpp.s:
 	$(MAKE) -f CMakeFiles/Materials.dir/build.make CMakeFiles/Materials.dir/Materials/Materials.cpp.s
 .PHONY : Materials/Materials.cpp.s
+
+Mesh/Mesh.o: Mesh/Mesh.cpp.o
+
+.PHONY : Mesh/Mesh.o
+
+# target to build an object file
+Mesh/Mesh.cpp.o:
+	$(MAKE) -f CMakeFiles/Mesh.dir/build.make CMakeFiles/Mesh.dir/Mesh/Mesh.cpp.o
+.PHONY : Mesh/Mesh.cpp.o
+
+Mesh/Mesh.i: Mesh/Mesh.cpp.i
+
+.PHONY : Mesh/Mesh.i
+
+# target to preprocess a source file
+Mesh/Mesh.cpp.i:
+	$(MAKE) -f CMakeFiles/Mesh.dir/build.make CMakeFiles/Mesh.dir/Mesh/Mesh.cpp.i
+.PHONY : Mesh/Mesh.cpp.i
+
+Mesh/Mesh.s: Mesh/Mesh.cpp.s
+
+.PHONY : Mesh/Mesh.s
+
+# target to generate assembly for a file
+Mesh/Mesh.cpp.s:
+	$(MAKE) -f CMakeFiles/Mesh.dir/build.make CMakeFiles/Mesh.dir/Mesh/Mesh.cpp.s
+.PHONY : Mesh/Mesh.cpp.s
+
+MultipleLights/MultipleLights.o: MultipleLights/MultipleLights.cpp.o
+
+.PHONY : MultipleLights/MultipleLights.o
+
+# target to build an object file
+MultipleLights/MultipleLights.cpp.o:
+	$(MAKE) -f CMakeFiles/MultipleLights.dir/build.make CMakeFiles/MultipleLights.dir/MultipleLights/MultipleLights.cpp.o
+.PHONY : MultipleLights/MultipleLights.cpp.o
+
+MultipleLights/MultipleLights.i: MultipleLights/MultipleLights.cpp.i
+
+.PHONY : MultipleLights/MultipleLights.i
+
+# target to preprocess a source file
+MultipleLights/MultipleLights.cpp.i:
+	$(MAKE) -f CMakeFiles/MultipleLights.dir/build.make CMakeFiles/MultipleLights.dir/MultipleLights/MultipleLights.cpp.i
+.PHONY : MultipleLights/MultipleLights.cpp.i
+
+MultipleLights/MultipleLights.s: MultipleLights/MultipleLights.cpp.s
+
+.PHONY : MultipleLights/MultipleLights.s
+
+# target to generate assembly for a file
+MultipleLights/MultipleLights.cpp.s:
+	$(MAKE) -f CMakeFiles/MultipleLights.dir/build.make CMakeFiles/MultipleLights.dir/MultipleLights/MultipleLights.cpp.s
+.PHONY : MultipleLights/MultipleLights.cpp.s
 
 Shaders/UseShaderClass.o: Shaders/UseShaderClass.cpp.o
 
@@ -1209,6 +1289,8 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... edit_cache"
+	@echo "... Mesh"
+	@echo "... MultipleLights"
 	@echo "... LightCasters"
 	@echo "... LightingMaps"
 	@echo "... Materials"
@@ -1282,15 +1364,21 @@ help:
 	@echo "... HelloWindow/HelloWindow.o"
 	@echo "... HelloWindow/HelloWindow.i"
 	@echo "... HelloWindow/HelloWindow.s"
-	@echo "... LightCasters/SpotLight.o"
-	@echo "... LightCasters/SpotLight.i"
-	@echo "... LightCasters/SpotLight.s"
+	@echo "... LightCasters/SmoothSpotlight.o"
+	@echo "... LightCasters/SmoothSpotlight.i"
+	@echo "... LightCasters/SmoothSpotlight.s"
 	@echo "... LightingMaps/LightingMaps.o"
 	@echo "... LightingMaps/LightingMaps.i"
 	@echo "... LightingMaps/LightingMaps.s"
 	@echo "... Materials/Materials.o"
 	@echo "... Materials/Materials.i"
 	@echo "... Materials/Materials.s"
+	@echo "... Mesh/Mesh.o"
+	@echo "... Mesh/Mesh.i"
+	@echo "... Mesh/Mesh.s"
+	@echo "... MultipleLights/MultipleLights.o"
+	@echo "... MultipleLights/MultipleLights.i"
+	@echo "... MultipleLights/MultipleLights.s"
 	@echo "... Shaders/UseShaderClass.o"
 	@echo "... Shaders/UseShaderClass.i"
 	@echo "... Shaders/UseShaderClass.s"

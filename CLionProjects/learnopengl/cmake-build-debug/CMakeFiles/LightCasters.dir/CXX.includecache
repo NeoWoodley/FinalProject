@@ -802,7 +802,7 @@ detail/func_vector_relational.hpp
 
 ../external/soil/include/SOIL.h
 
-/Users/neowoodley/Projects/CLionProjects/learnopengl/LightCasters/SpotLight.cpp
+/Users/neowoodley/Projects/CLionProjects/learnopengl/LightCasters/SmoothSpotlight.cpp
 iostream
 -
 cmath

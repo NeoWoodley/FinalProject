@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/neowoodley/Projects/CLionProjects/learnopengl/LightCasters/SpotLight.cpp" "/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles/LightCasters.dir/LightCasters/SpotLight.cpp.o"
+  "/Users/neowoodley/Projects/CLionProjects/learnopengl/LightCasters/SmoothSpotlight.cpp" "/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles/LightCasters.dir/LightCasters/SmoothSpotlight.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

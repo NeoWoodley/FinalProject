@@ -2,6 +2,8 @@
 /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles/install.dir
 /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles/list_install_components.dir
 /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles/Mesh.dir
+/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles/MultipleLights.dir
 /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles/LightCasters.dir
 /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles/LightingMaps.dir
 /Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/CMakeFiles/Materials.dir

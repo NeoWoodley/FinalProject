@@ -95,6 +95,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/launch-Materials.sh"
   "CMakeFiles/launch-LightingMaps.sh"
   "CMakeFiles/launch-LightCasters.sh"
+  "CMakeFiles/launch-MultipleLights.sh"
+  "CMakeFiles/launch-Mesh.sh"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "external/CMakeFiles/CMakeDirectoryInformation.cmake"
   "external/glfw-3.1.2/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -111,6 +113,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Mesh.dir/DependInfo.cmake"
+  "CMakeFiles/MultipleLights.dir/DependInfo.cmake"
   "CMakeFiles/LightCasters.dir/DependInfo.cmake"
   "CMakeFiles/LightingMaps.dir/DependInfo.cmake"
   "CMakeFiles/Materials.dir/DependInfo.cmake"

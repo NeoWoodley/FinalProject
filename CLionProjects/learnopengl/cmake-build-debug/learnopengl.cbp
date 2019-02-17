@@ -57,6 +57,146 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Mesh">
+				<Option output="/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Mesh" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/AntTweakBar-1.16/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/glfw-3.1.2/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/glm-0.9.7.1"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/glew-1.13.0/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/assimp-3.0.1270/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/bullet-2.81-rev2613/src"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/soil/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 Mesh"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Mesh/fast">
+				<Option output="/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Mesh" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/AntTweakBar-1.16/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/glfw-3.1.2/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/glm-0.9.7.1"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/glew-1.13.0/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/assimp-3.0.1270/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/bullet-2.81-rev2613/src"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/soil/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 Mesh/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultipleLights">
+				<Option output="/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/MultipleLights" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/AntTweakBar-1.16/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/glfw-3.1.2/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/glm-0.9.7.1"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/glew-1.13.0/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/assimp-3.0.1270/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/bullet-2.81-rev2613/src"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/soil/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultipleLights"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultipleLights/fast">
+				<Option output="/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/MultipleLights" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/AntTweakBar-1.16/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/glfw-3.1.2/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/glm-0.9.7.1"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/glew-1.13.0/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/assimp-3.0.1270/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/bullet-2.81-rev2613/src"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/external/soil/include"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/learnopengl/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultipleLights/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="LightCasters">
 				<Option output="/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug/LightCasters" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/neowoodley/Projects/CLionProjects/learnopengl/cmake-build-debug"/>
@@ -3052,7 +3192,7 @@
 		<Unit filename="/Users/neowoodley/Projects/CLionProjects/learnopengl/HelloWindow/HelloWindow.cpp">
 			<Option target="HelloWindow"/>
 		</Unit>
-		<Unit filename="/Users/neowoodley/Projects/CLionProjects/learnopengl/LightCasters/SpotLight.cpp">
+		<Unit filename="/Users/neowoodley/Projects/CLionProjects/learnopengl/LightCasters/SmoothSpotlight.cpp">
 			<Option target="LightCasters"/>
 		</Unit>
 		<Unit filename="/Users/neowoodley/Projects/CLionProjects/learnopengl/LightingMaps/LightingMaps.cpp">
@@ -3060,6 +3200,15 @@
 		</Unit>
 		<Unit filename="/Users/neowoodley/Projects/CLionProjects/learnopengl/Materials/Materials.cpp">
 			<Option target="Materials"/>
+		</Unit>
+		<Unit filename="/Users/neowoodley/Projects/CLionProjects/learnopengl/Mesh/Mesh.cpp">
+			<Option target="Mesh"/>
+		</Unit>
+		<Unit filename="/Users/neowoodley/Projects/CLionProjects/learnopengl/Mesh/Mesh.h">
+			<Option target="Mesh"/>
+		</Unit>
+		<Unit filename="/Users/neowoodley/Projects/CLionProjects/learnopengl/MultipleLights/MultipleLights.cpp">
+			<Option target="MultipleLights"/>
 		</Unit>
 		<Unit filename="/Users/neowoodley/Projects/CLionProjects/learnopengl/Shaders/UseShaderClass.cpp">
 			<Option target="Shaders"/>
