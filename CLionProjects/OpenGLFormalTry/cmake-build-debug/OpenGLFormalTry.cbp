@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OpenGLFormalTry"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\modules\;CMake Files\configuration\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="formal_try__CHO">
+				<Option output="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/bin/formal_try/formal_try__CHO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/configuration"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/includes"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 formal_try__CHO"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="formal_try__CHO/fast">
+				<Option output="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/bin/formal_try/formal_try__CHO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/configuration"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/includes"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 formal_try__CHO/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD">
+				<Option output="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/libGLAD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/configuration"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/includes"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 GLAD"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD/fast">
+				<Option output="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/libGLAD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/configuration"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/includes"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 GLAD/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STB_IMAGE">
+				<Option output="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/libSTB_IMAGE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/configuration"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/includes"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 STB_IMAGE"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STB_IMAGE/fast">
+				<Option output="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/libSTB_IMAGE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/configuration"/>
+					<Add directory="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/includes"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 STB_IMAGE/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/src/formal_try/CHO/cho.cpp">
+			<Option target="formal_try__CHO"/>
+		</Unit>
+		<Unit filename="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/src/glad.c">
+			<Option target="GLAD"/>
+		</Unit>
+		<Unit filename="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/src/stb_image.cpp">
+			<Option target="STB_IMAGE"/>
+		</Unit>
+		<Unit filename="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake/modules/FindASSIMP.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake/modules/FindFREEGLUT.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake/modules/FindGLEW.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake/modules/FindGLFW3.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake/modules/FindGLM.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake/modules/FindGLTools.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/configuration/root_directory.h.in">
+			<Option virtualFolder="CMake Files\configuration\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

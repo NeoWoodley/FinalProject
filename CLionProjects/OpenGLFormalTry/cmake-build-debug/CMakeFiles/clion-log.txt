@@ -1,0 +1,21 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry
+-- GLM_INCLUDE_DIR = /usr/local/include
+-- GLM included at /usr/local/include
+-- Found GLFW3 in /usr/local/include
+-- Found ASSIMP: /usr/local/lib/libassimp.dylib
+-- Found ASSIMP in /usr/local/include
+now using FindGLTools.cmake to find GLTools
+./h dir: /usr/local/include
+lib dir: /usr/local/lib/libgltools.a
+-- Found GLTools in /usr/local/include
+now using FindGLEW.cmake to find GLEW
+./h dir: /usr/local/Cellar/glew/2.1.0/include/GL
+./dylib dir: /usr/local/lib/libGLEW.dylib
+-- Found GLEW in /usr/local/Cellar/glew/2.1.0/include/GL
+now using FindFREEGLUT.cmake to find FREEGLUT
+./h dir: /usr/local/Cellar/freeglut/3.0.0/include/GL
+dylib dir: /usr/local/lib/libglut.3.10.0.dylib
+-- Found FREEGLUT in /usr/local/Cellar/freeglut/3.0.0/include/GL
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug

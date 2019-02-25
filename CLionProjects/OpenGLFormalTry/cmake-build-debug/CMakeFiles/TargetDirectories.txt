@@ -1,0 +1,5 @@
+/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/CMakeFiles/formal_try__CHO.dir
+/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/CMakeFiles/GLAD.dir
+/Users/neowoodley/Projects/CLionProjects/OpenGLFormalTry/cmake-build-debug/CMakeFiles/STB_IMAGE.dir
